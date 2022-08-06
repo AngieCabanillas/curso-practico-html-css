@@ -31,3 +31,17 @@ nav .nav-right-section a{
     margin-right: 1rem;
     color: #000000;
 }
+nav .nav-right-section .menu-icon{
+    background-image: url('https://cdn.iconscout.com/icon/premium/png-256-thumb/menu-1899373-1606812.png');
+    /*no se repite imagen de fondo*/
+    background-repeat: no-repeat;
+    background-position: center;
+    /*imagen se adapta al contenedor padre*/
+    background-size: contain;
+    width: 2.4rem;
+    height: 2.4rem;
+}
+nav .nav-right-section img{
+    border-radius: 50%;
+    margin-left: 1.5rem;
+}
