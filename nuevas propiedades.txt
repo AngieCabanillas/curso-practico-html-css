@@ -10,3 +10,8 @@ li{
     /*imagen se adapta al contenedor padre*/
     background-size: contain;
 }
+------------------------
+input{
+    border: none;
+    outline: none;
+}
