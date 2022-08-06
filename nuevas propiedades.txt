@@ -1,0 +1,12 @@
+a{
+    cursor:pointer;
+}
+---------------------
+li{
+    background-image: url('https://cdn.iconscout.com/icon/premium/png-256-thumb/menu-1899373-1606812.png');
+    /*no se repite imagen de fondo*/
+    background-repeat: no-repeat;
+    background-position: center;
+    /*imagen se adapta al contenedor padre*/
+    background-size: contain;
+}
