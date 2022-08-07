@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+/*HEADER LOGO*/
+header{
+    width: 98%;
+    height: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom:0.1rem solid #a2a9b1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+header .header-logo{
+    width: 65rem;
+    margin: 0 auto;
+}
+header .header-logo img{
+    width: 62rem;
+    height: 45rem;
+}
+/*HEADER INPUT*/
+header .header-input{
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto;
+}
+header .header-input div{
+    height: 3.6rem;
+    display: flex;
+    align-items: center;
+}
+header .header-input .header-input-container{
+    width: 30rem;
+    border: 0.1rem #a2a9b1 solid; 
+    border-top-left-radius: 0.3rem;
+    border-bottom-left-radius: 0.3rem;
+}
+header .down-icon{
+    background-image: url('./images/down.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1rem;
+    height: 1rem;
+}
+header .header-input input{
+    width: 28rem;
+    margin: auto 1rem;
+    border: none;
+    outline: none;
+}
+header .header-input span{
+    color: #a2a9b1;
+    font-size: 1.3rem;
+    margin-right: 0.4rem
+}
+header .header-input .header-input-button{
+    width: 4.2rem;
+}
+header .header-input button{
+    border-top-right-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+    width: 100%;
+    height: 100%;
+    background-color: #36c;
+    border-color: #36c;
+}
+
+header .header-input .search-icon{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 2rem;
+    height: 2rem;
+}
+/*HEADER BLUE BUTTON*/
+header .header-blue-button{
+    width: 34.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+header .header-blue-button button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.6rem 1rem;
+    border: 0.1rem solid rgb(158, 158, 158);
+    background-color: #f8f9fa;
+    border-radius: 0.3rem;
+    color: #36c;
+}
+header .header-blue-button .traductor-icon{
+    width: 2rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: 1rem;
+}
+header .header-blue-button button span{
+    margin-right: 0.5rem;
+    font-size: 1.2rem;
+}
+header .blue-down-icon{
+    background-image: url('./images/blue-down.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1rem;
+    height: 1rem;
+}
+header .header-blue-button .line{
+    width: 5rem;
+    border: 0.1rem solid rgb(158, 158, 158);
+    margin: auto;
+}

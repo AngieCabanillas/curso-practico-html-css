@@ -1,0 +1,5 @@
+*flex
+podriamos usarlo para posicionar etiquetas contenedoras como header, main, aside, footer
+
+*grid
+podriamos usarlo para etiquetas donde estara directamente nuestro contenido
