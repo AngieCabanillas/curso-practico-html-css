@@ -6,6 +6,9 @@
 html{
     font-size: 62.5%;
 }
+a{
+    cursor: pointer;
+}
 /*HEADER LOGO*/
 header{
     width: 98%;
@@ -123,3 +126,102 @@ header .header-blue-button .line{
     border: 0.1rem solid rgb(158, 158, 158);
     margin: auto;
 }
+/*MAIN*/
+main{
+    width: 90%;
+    height: 40rem;
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+    font-size: 1.4rem;
+    margin: 4rem auto;
+}
+/*SECTION 1*/
+main .main-section1{
+    width: 36rem;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    padding: 2rem;
+}
+main .main-section1 .section1-div{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    /*align-items: center; */
+}
+main .main-section1 img{
+    width: 3.5rem;
+    margin: 3rem auto;
+}
+.main-section1-container1 p{
+    margin: auto 1.5rem;
+}
+.main-section1-container2-texto{
+    margin: auto 1.5rem;
+}
+main .main-section1-container2{
+    background-color: #f1f1f2;
+}
+h4{
+    color: #505356;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.main-section1-container2-texto p{
+    margin-bottom: 1rem;
+}
+/*botones de la seccion 1*/
+.main-section1-container2-texto-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-section1-container2-texto-buttons button{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 0.6rem;
+    border: none;
+}
+.main-section1-container2-texto-buttons .google-play-button{
+    width: 10rem;
+    height: 4.8rem;
+    background-image: url('./images/google-play-oficial.png');
+    margin-right: 1rem;
+}
+.main-section1-container2-texto-buttons .app-store-button{
+    width: 10rem;
+    height: 3.2rem;
+    background-image: url('./images/app-store.jpg');
+}
+
+/*SECTION 2*/
+main .main-section2{
+    padding: 2rem;
+    height: 36rem;
+    margin: 2rem auto;
+}
+main .main-section2 .main-section2-div{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: repeat(4, 1fr);
+    align-items: center;
+}
+main .main-section2 .main-section2-div img{
+    width: 3.5rem;
+    /* height: 4.7rem; */
+}
+.main-section2-div-container{
+    display: flex;
+}
+.main-section2-div-container img{
+    margin-right: 1rem;
+}
+.main-section2-div-container p{
+    color: #505356;
+}
+.main-section2-div-container a{
+    color: #36c;
+}
+
+
