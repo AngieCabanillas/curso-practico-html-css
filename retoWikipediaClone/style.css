@@ -8,6 +8,7 @@ html{
 }
 a{
     cursor: pointer;
+    text-decoration: none;
 }
 /*HEADER LOGO*/
 header{
@@ -136,6 +137,9 @@ main{
     margin: 4rem auto;
 }
 /*SECTION 1*/
+main .main-section1 p{
+    color: #505356;
+}
 main .main-section1{
     width: 36rem;
     margin: 2rem auto;
@@ -223,5 +227,29 @@ main .main-section2 .main-section2-div img{
 .main-section2-div-container a{
     color: #36c;
 }
-
-
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer section{
+    width: 80%;
+    height: 5rem;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer section p,span{
+    color: #505356;
+}
+footer section a{
+    color:#36c;
+}
+footer section p,a,span{
+    margin-right: 0.4rem;
+}
+footer section span{
+    font-size: 1rem;
+}
